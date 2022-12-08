@@ -4,7 +4,12 @@ void writeTable(int n) {
     int i = 1;
     while (i <= n) {
         int a = i * i * i;
-        Console.Write(a + ", ");
+        if (i == n) { 
+          Console.Write(a + ".");  
+        }
+        else { 
+            Console.Write(a + ", ");
+        }
         i++;
     }
 
