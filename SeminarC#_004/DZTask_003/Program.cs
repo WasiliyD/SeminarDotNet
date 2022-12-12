@@ -16,5 +16,6 @@ int GetNumber(string text) {
     return number;
 }
 
+
 int a = GetNumber("Задайте длину массива: ");
 NewArray(a);
